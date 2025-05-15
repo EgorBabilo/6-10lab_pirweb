@@ -1,0 +1,56 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+.car-block {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    background-color: #e8ecf1;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+ol {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #3b88ae;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4457;
+}
+
+select, input {
+    padding: 6px 10px;
+    margin: 5px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.control-group {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блоки</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="control-panel">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="blockType">Тип блока</label>
+                    <select id="blockType">
+                        <option value="block1">Блок 1</option>
+                        <option value="block2">Блок 2</option>
+                        <option value="block3">Блок 3</option>
+                        <option value="block4">Блок 4</option>
+                        <option value="block5">Блок 5</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="blockSize">Размер блока</label>
+                    <select id="blockSize">
+                        <option value="280x220">280×220</option>
+                        <option value="300x230">300×230</option>
+                        <option value="350x270">350×270</option>
+                        <option value="400x300">400×300</option>
+                        <option value="450x330">450×330</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="blockImage">Изображение</label>
+                    <select id="blockImage">
+                        <option value="../resource/img1.jpg">Горы</option>
+                        <option value="../resource/img2.jpg">Море</option>
+                        <option value="../resource/img3.jpg">Джунгли</option>
+                        <option value="../resource/img4.jpg">Лес</option>
+                        <option value="../resource/img5.jpg">Пустыня</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="blockText">Текст</label>
+                    <select id="blockText">
+                        <option value="Чудесно">Чудесно</option>
+                        <option value="Восхитительно">Восхитительно</option>
+                        <option value="Потрясающе">Потрясающе</option>
+                        <option value="Необыкновенно">Необыкновенно</option>
+                        <option value="Великолепно">Великолепно</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="blockX">Координата X</label>
+                    <select id="blockX">
+                        <option value="20">20px</option>
+                        <option value="100">100px</option>
+                        <option value="280">280px</option>
+                        <option value="540">540px</option>
+                        <option value="760">760px</option>
+                        <option value="920">920px</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="blockY">Координата Y</label>
+                    <select id="blockY">
+                        <option value="20">20px</option>
+                        <option value="200">200px</option>
+                        <option value="300">300px</option>
+                        <option value="400">400px</option>
+                        <option value="500">500px</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="button-group">
+                <button id="createBtn">Создать/Обновить</button>
+                <button id="clearBtn">Очистить все</button>
+            </div>
+        </div>
+    </div>
+    <div class="block-container" id="blockContainer"></div>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>

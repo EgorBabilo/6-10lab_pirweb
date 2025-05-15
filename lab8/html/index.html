@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Флаги Европы</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <h1>Флаги Европы</h1>
+    
+    <div class="settings" id="settingsContainer">
+        <label for="timePerQuestion">Время на ответ (секунды):</label>
+        <input type="number" id="timePerQuestion" min="1" max="60" value="10">
+        <button id="startBtn">Начать викторину</button>
+    </div>
+    
+    <div class="quiz-container" id="quizContainer" style="display: none;">
+        <div class="timer" id="timer"></div>
+        <div class="image-container">
+            <img id="quizImage" src="" alt="Флаг">
+        </div>
+        <div class="options-container" id="optionsContainer"></div>
+        <div class="message" id="message"></div>
+        <button id="nextBtn" disabled>Следующий вопрос</button>
+        <div class="stats" id="stats"></div>
+    </div>
+    
+    <div id="resultsContainer" style="display: none;">
+        <h2>Результаты викторины</h2>
+        <p id="finalStats"></p>
+        <button id="reviewBtn">Просмотреть правильные ответы</button>
+        <button id="restartBtn">Начать викторину заново</button>
+    </div>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
